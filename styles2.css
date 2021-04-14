@@ -1,0 +1,296 @@
+body{
+    background-image: url("images/wooden-background.jpeg");;
+    font-family: Helvetica, Calibri, Arial;
+    position: absolute;
+}
+
+.wrapper{
+  background-color: #FBFBFB;
+  width: 100%;
+  margin: 5%;
+  padding: 5%;
+  height: 650px;
+  border-radius: 25px;
+  position: relative;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;    
+  }
+  
+  .flex-container > li {
+    
+    
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    list-style: none;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+    margin: 2%;
+    
+  }
+
+  a:link {
+    color: #4d1d18;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #4d1d18;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #555;
+    
+  }
+  
+  a:active {
+    color: #4d1d18;
+    text-decoration: none;
+  }
+
+
+  .footer-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+  }
+  
+  .footer-container > li {
+    
+    width: 184px;
+    text-align: center;
+    font-size: 12px;
+    list-style: none;
+    
+  }
+
+
+  footer{
+    background-color: #f0f8ff;
+    border-radius: 5px;
+    width: 950px;
+    margin-left: 100px;
+    color: #87423c;
+    
+  }
+
+  h1{
+    color: #87423c;
+    font-size:36px;
+  }
+  
+  h2{
+    color: #4d1d18;
+    font-size:24px;
+  }
+
+  p{
+    line-height: 150%;
+  }
+
+  .directions{
+    width: 800px;
+    margin-left: 190px;
+  }
+
+  #getInTouch{
+    display: flex;
+    justify-content: space-evenly;
+    width: 950px;
+    
+    margin: 50px 50px 50px 100px;
+  }
+
+
+.column_home {
+float: right;
+width: 40%;
+margin: 5%;
+}
+
+  .home:after{
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+
+  #retro_records{
+    width: 960px;
+    height: 1400px;
+    margin-left: 100px;
+    border-radius: 25px;
+    
+  }
+
+
+  .retro_records{
+    text-align: center;
+    padding-top: 60px;
+    
+  }
+
+  #rare_lps{
+    width: 960px;
+    height: 3420px;
+    margin-left: 100px;
+    border-radius: 25px;
+    background-color:#f0f8ff;
+  }
+
+
+  .rare_lps{
+    text-align: center;
+    padding-top: 60px;
+    
+  }
+
+  #rooms{
+    width: 960px;
+    height: 2600px;
+    margin-left: 100px;
+    border-radius: 25px;
+  }
+
+
+  .used_records{
+    text-align: center;
+    padding-top: 60px;
+    
+  }
+
+  .highlights{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .testimonials{
+   width: 200px;
+   height: 260px;
+   background-color: wheat;
+   border-radius: 20px;
+   margin: 20px;
+   padding: 20px;
+   text-align: left;
+  }
+
+  .attractions{
+    width: 350px;
+    height: 500px;
+    background-color:#c0c0c0;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+   }
+
+   .attractions_2{
+    width: 350px;
+    height: 750px;
+    background-color:#c0c0c0;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+   }
+
+   .pet_friendly{
+    width: 880px;
+    height: 370px;
+    background-color:#c0c0c0;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+   }
+
+   .pet_friendly p{
+   column-count: 2;
+   text-align: left;
+   }
+
+   .amenities{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .room_properties {
+    width: 400px;
+    height: 450px;
+    margin: 20px;
+    padding: 20px;
+   }
+
+   .amenities_properties p {
+  width: 250px; 
+  margin-left: 70px;
+  }
+
+  .amenities_properties {
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+   }
+
+   .description{
+     width: 800px;
+     margin-left: 100px;
+     text-align: left;
+     column-count: 3;
+   }
+
+   .seasons{
+     width: 200px;
+   }
+   
+   .wrapper_contact{
+    background-color: white;
+    width: 1200px;
+    height: 1100px;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.wrapper_about{
+  background-color: white;
+  width: 1200px;
+  height: 1750px;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+.wrapper_explore{
+  background-color: white;
+  width: 1200px;
+  height: 3770px;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+.wrapper_rooms{
+  background-color: white;
+  width: 1200px;
+  height: 2950px;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 25px;
+}
+

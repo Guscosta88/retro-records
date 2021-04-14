@@ -1,0 +1,159 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  max-width: 992px;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 992px;
+}
+
+label.logo{
+  padding-left: 10px;
+  width: 100%;
+}
+
+nav{
+  background: #FBFBFB;
+  height: 50px;
+  width: 100%;
+}
+
+nav ul{
+float: right;
+margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+a.active, a:hover{
+  background: grey;
+  transition: .5s;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 50px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+.footer-container{
+  background: #FBFBFB;
+  display: flex;
+  float: right;
+  width: 100%;
+  padding: 10px;
+}
+
+footer ul li a {
+  color: black;
+  font-size: 15px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 3px;
+
+}
+footer ul li a img {
+  width: 25px;
+  height: 25px;
+}
+main{
+  display: flex;
+}
+main img{
+  width: 50%;
+  padding: 20px;
+}
+
+
+
+@media (max-width: 768px){
+  label.logo{
+    padding-left: 0;
+    
+  }
+  nav ul li a{
+    font-size: 8px;
+    font-weight: bold;
+  }
+  footer ul li p {
+   display: none;
+  }
+  .footer-container{
+    background: #FBFBFB;
+    display: flex;
+    width: 74%;
+    padding: 10px;
+  }
+  footer ul li a img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 576px){
+  label.logo{
+    padding-left: 50px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  #nav_ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: grey;
+    top: 50px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover, a.active{
+    background: none;
+    color: white;
+  }
+  #check:checked ~ #nav_ul{
+    left: 0;
+  }
+  .footer-container{
+    background: #FBFBFB;
+    display: block;
+    width: 62%;
+    padding: 10px;
+  }
+  footer ul li a img {
+    width: 40px;
+    height: 40px;
+  }
+}
