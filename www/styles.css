@@ -82,12 +82,73 @@ footer ul li a img {
 }
 main{
   display: flex;
+  
 }
 main img{
   width: 50%;
-  padding: 20px;
+  padding: 10px;
 }
 
+.home{
+  width: 50%;
+  padding: 20px;
+  padding-top: 110px;
+}
+
+h2{
+  padding: 20px 0;
+}
+
+/* slider */
+
+
+#slider {
+  width: 100%;
+overflow: hidden;
+}
+#slider figure {
+position: relative;
+width: 500%;
+margin: 0;
+left: 0;
+animation: 20s slider infinite;
+}
+#slider figure img {
+width: 20%;
+float: left;
+}
+
+@keyframes slider {
+0% {
+left: 0;
+}
+20% {
+left: 0;
+}
+25% {
+left: -100%;
+}
+45% {
+left: -100%;
+}
+50% {
+left: -200%;
+}
+70% {
+left: -200%;
+}
+75% {
+left: -300%;
+}
+95% {
+left: -300%;
+}
+100% {
+left: -400%;
+}
+}
+
+/* slider */
 
 
 @media (max-width: 768px){
@@ -111,6 +172,18 @@ main img{
   footer ul li a img {
     width: 35px;
     height: 35px;
+  }
+  main{
+    display: block;
+    
+  }
+  main img{
+    width: 100%;
+  }
+  
+  .home{
+    width: 100%;
+    padding: 0 20px 80px 20px;
   }
 }
 
