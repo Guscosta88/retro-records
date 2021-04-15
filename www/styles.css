@@ -4,12 +4,16 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  max-width: 992px;
+  
 }
 
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  max-width: 992px;
+}
+
+.wrapper{
+max-width: 992px;
+margin: auto;
 }
 
 label.logo{
@@ -19,8 +23,8 @@ label.logo{
 
 nav{
   background: #FBFBFB;
-  height: 50px;
   width: 100%;
+  padding: 10px 0;
 }
 
 nav ul{
@@ -80,11 +84,12 @@ footer ul li a img {
   width: 25px;
   height: 25px;
 }
-main{
+main .content{
   display: flex;
   
 }
-main img{
+
+main .content img{
   width: 50%;
   padding: 10px;
 }
@@ -150,6 +155,61 @@ left: -400%;
 
 /* slider */
 
+/* Form */
+
+
+.submit{
+  margin-left: 120px;
+  width: 120px;
+  height: 30px;
+  border-radius: 2px;
+  margin-top: 30px;
+  font-weight: bold; 
+}
+
+.form-box{
+  width: 350px;
+  height: 360px;
+  background-color: brown;
+  border-radius: 10px;
+  display: auto;
+  margin: 40px;
+}
+#form_h2{
+  text-align: center;
+}
+
+.contact label{
+  display: inline-block;
+  width: 110px;
+  text-align: right;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+input{
+  margin: 5px;
+}
+
+.contact{
+  width: 50%;
+  display: auto;
+  
+}
+
+/* Form */
+
+h1{
+  text-align: center;
+}
+
+.find-us{
+  width: 50%;
+  padding: 20px;
+  margin: 40px;
+}
+
 
 @media (max-width: 768px){
   label.logo{
@@ -173,17 +233,25 @@ left: -400%;
     width: 35px;
     height: 35px;
   }
-  main{
+  main .content{
     display: block;
     
   }
-  main img{
+  main .content img{
     width: 100%;
   }
   
   .home{
     width: 100%;
     padding: 0 20px 80px 20px;
+  }
+  .contact{
+    width: 100%;
+    padding-left: 22%;
+  }
+  .find-us{
+    width: 350px;
+    margin: 0 27% 50px 27%;
   }
 }
 
@@ -195,11 +263,12 @@ left: -400%;
     display: block;
   }
   #nav_ul{
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 100vh;
+    z-index: 1;
     background: grey;
-    top: 50px;
+    top: 74px;
     left: -100%;
     text-align: center;
     transition: all .5s;
@@ -228,5 +297,13 @@ left: -400%;
   footer ul li a img {
     width: 40px;
     height: 40px;
+  }
+  .contact{
+    width: 100%;
+    padding: 0 12% 0 12%;
+  }
+  .find-us{
+    width: 350px;
+    margin: 0 20% 50px 20%;
   }
 }
