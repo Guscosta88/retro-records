@@ -14,6 +14,7 @@ body{
 
 h2{
   font-size: 3vmax;
+  max-width: 800px;
 }
 
 .wrapper{
@@ -177,7 +178,6 @@ left: -400%;
   height: 360px;
   background-color: brown;
   border-radius: 10px;
-  display: auto;
   margin: 40px;
 }
 #form_h2{
@@ -199,7 +199,6 @@ input{
 
 .contact{
   width: 50%;
-  display: auto;
   
 }
 
@@ -264,7 +263,7 @@ table, td{
   border-right: 0;
 }
 
-#info-border {
+.info-border {
   border-right: 0;
 }
 
@@ -294,7 +293,6 @@ th {
 .rare-lps{
   width: 100%;
   text-align: center;
-  display: auto;
   background-color: white;
   padding: 0 200px;
 }
