@@ -1,3 +1,7 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Raleway&display=swap);
+
+
 *{
   padding: 0;
   margin: 0;
@@ -8,12 +12,12 @@
 }
 
 body{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Raleway';
   background-image: url("images/body_bg.png");
 }
 
 h2{
-  font-size: 3vmax;
+  font-size: 40px;
   max-width: 800px;
 }
 
@@ -93,6 +97,9 @@ footer ul li a img {
 main .content{
   display: flex;
   background-color: white;
+}
+.img-banner{
+  object-fit: cover;
 }
 
 main .content img{
@@ -335,7 +342,7 @@ th {
   }
   .contact{
     width: 100%;
-    padding-left: 22%;
+    padding-left: 16%;
     padding-top: 20px;
   }
   .find-us{
@@ -363,6 +370,10 @@ th {
   width: 100%;
   margin: 6px;
 }
+h2{
+  font-size: 5vmax;
+}
+
 }
 
 @media (max-width: 576px){
@@ -418,6 +429,8 @@ th {
     margin: 0 20% 50px 20%;
     
   }
-
+  form{
+    margin-right: 50%;
+  }
  
 }
